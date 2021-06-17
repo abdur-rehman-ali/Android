@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuotesApp</string>
+    <string name="quote">“Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.”</string>
+    <string name="quote_writer">Steve Jobs</string>
+</resources>
