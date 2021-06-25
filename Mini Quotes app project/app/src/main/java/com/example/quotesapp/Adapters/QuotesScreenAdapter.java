@@ -1,10 +1,13 @@
 package com.example.quotesapp.Adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -37,6 +40,17 @@ public class QuotesScreenAdapter extends RecyclerView.Adapter<QuotesScreenAdapte
         QuotesScreenModel data = dataList.get(position);
         holder.quote.setText(data.getQuote());
         holder.author.setText(data.getAuthor());
+        holder.shareBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_SEND);
+                intent.putExtra(Intent.EXTRA_TEXT,data.getQuote());
+                intent.setType("text/plain");
+                mContext.startActivity(intent);
+
+            }
+        });
 
     }
 
@@ -49,11 +63,13 @@ public class QuotesScreenAdapter extends RecyclerView.Adapter<QuotesScreenAdapte
     {
         public TextView quote;
         public TextView author;
+        public Button shareBtn;
 
         public QuotesScreenViewHolder(@NonNull View itemView) {
             super(itemView);
             quote = itemView.findViewById(R.id.quote);
             author = itemView.findViewById(R.id.writer);
+            shareBtn = itemView.findViewById(R.id.shareBtn);
 
 
         }
