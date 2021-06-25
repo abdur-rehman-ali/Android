@@ -1,5 +1,27 @@
 <resources>
     <string name="app_name">QuotesApp</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quote1">“All our dreams can come true, if we have the courage to pursue them.” </string>
+    <string name="quote2">“The secret of getting ahead is getting started.” </string>
+    <string name="quote3">“I’ve missed more than 9,000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life and that is why I succeed.” </string>
+    <string name="quote4">“Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.” </string>
+    <string name="quote5">“The best time to plant a tree was 20 years ago. The second best time is now.”</string>
+    <string name="quote6">“Only the paranoid survive.”  </string>
+    <string name="quote7">“It’s hard to beat a person who never gives up.”  </string>
+    <string name="quote8">“I wake up every morning and think to myself, ‘how far can I push this company in the next 24 hours.’”  </string>
+    <string name="quote9">“If people are doubting how far you can go, go so far that you can’t hear them anymore.”  </string>
+    <string name="quote10">“We need to accept that we won’t always make the right decisions, that we’ll screw up royally sometimes – understanding that failure is not the opposite of success, it’s part of success.” </string>
+
+
+    <string name="author1">– Walt Disney</string>
+    <string name="author2">– Mark Twain</string>
+    <string name="author3">– Michael Jordan</string>
+    <string name="author4">– Mary Kay Ash</string>
+    <string name="author5">– Chinese Proverb</string>
+    <string name="author6">– Andy Grove</string>
+    <string name="author7">– Babe Ruth</string>
+    <string name="author8">– Leah Busque</string>
+    <string name="author9">– Michele Ruiz</string>
+    <string name="author10">– Arianna Huffington</string>
+
 </resources>

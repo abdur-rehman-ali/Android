@@ -6,9 +6,11 @@
     tools:context=".Fragments.QuotesScreenFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/quoteScreenRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Fragment 2" />
+        tools:listitem="@layout/quotes_screen_layout"/>
 
 </FrameLayout>
