@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
         //We want to clear text view before appending more data in it
         text.setText("");
 
-        RequestQueue queue = Volley.newRequestQueue(this);
+//        RequestQueue queue = Volley.newRequestQueue(this);
+        RequestQueue queue = volleySingelton.getInstance(this).getRequestQueue();
         String url = "https://jsonplaceholder.typicode.com/albums";
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
